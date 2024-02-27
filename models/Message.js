@@ -1,8 +1,11 @@
-class User {
-    constructor(username, passcode) {
-        this.username = username;
-        this.passcode = passcode;
+class Message {
+    constructor(from, to, text) {
+        this.from = from;
+        this.to = to;
+        this.text = text;
+        this.read = false;
+        this.createdAt = new Date();
     }
 }
 
-module.exports = User;
+module.exports = Message;

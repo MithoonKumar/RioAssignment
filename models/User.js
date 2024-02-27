@@ -1,10 +1,10 @@
-class Message {
-    constructor(from, to, text) {
-        this.from = from;
-        this.to = to;
-        this.text = text;
-        this.createdAt = new Date();
+class User {
+    constructor(username, passcode) {
+        this.username = username;
+        this.passcode = passcode;
     }
 }
 
-module.exports = Message;
+module.exports = User;
+
+
