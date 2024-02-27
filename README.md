@@ -15,3 +15,4 @@ https://dark-crater-123999.postman.co/workspace/Team-Workspace~275043ee-2aa9-499
 
 ## Note 
 The send message API needs an Authorization token in the header which is generated in login step
+Please add Authorization key in header with JWT token as the value received in the login step
